@@ -1,6 +1,6 @@
 postgresql:
   restart: always
-  image: sameersbn/postgresql:9.6-2
+  image: sameersbn/postgresql:12-20200524
   environment:
     - DB_USER=gitlab
     - DB_PASS=password
