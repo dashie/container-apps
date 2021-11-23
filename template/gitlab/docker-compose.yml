@@ -22,6 +22,8 @@ gitlab:
     - GITLAB_SECRETS_DB_KEY_BASE=qcs-gitlab-app
     - GITLAB_SECRETS_OTP_KEY_BASE=qcs-gitlab-app
     - GITLAB_SECRETS_SECRET_KEY_BASE=qcs-gitlab-app
+    - TZ=UTC
+    - GITLAB_TIMEZONE=UTC    
 redis:
   restart: always
   image: sameersbn/redis:latest
