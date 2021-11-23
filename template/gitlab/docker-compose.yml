@@ -8,7 +8,7 @@ postgresql:
     - DB_EXTENSION=pg_trgm
 gitlab:
   restart: always
-  image: sameersbn/gitlab:11.4.0
+  image: sameersbn/gitlab:14.4.0
   links:
     - redis:redisio
     - postgresql:postgresql
