@@ -3,10 +3,10 @@
         "description": "GitLab is a web-based Git repository manager with code reviews, issue tracking, activity feeds and wikis.",
         "repository": "dockerhub",
         "arch": "amd64",
-        "icon": "https://raw.githubusercontent.com/qnap-dev/container-apps/2.0/images/app_gitlab.png",
+        "icon": "https://raw.githubusercontent.com/dashie/container-apps/2.0/images/app_gitlab.png",
         "displayName": "GitLab",
         "name": "gitlab",
-        "version": "11.4.0",
+        "version": "14.4.0",
         "location": "https://hub.docker.com/r/sameersbn/gitlab",
         "type": "app"
     },
